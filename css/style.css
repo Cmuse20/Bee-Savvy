@@ -299,23 +299,54 @@ button {
     top: 70px;
 }
 
-.tut_rel_video_photo {
+.index_rel_video_photo {
+    position: absolute;
+    left: 121px;
+    top: 890px;
     font-size: 22px;
-    padding: 80px 0px 0px 82px;
+}
+
+.tut_photo_text{
+    position: absolute;
+    left: 121px;
+    top: 890px;
+    font-size: 22px;
+}
+
+.tut_rel_video_photo {
+    position: absolute;
+    left: 102px;
+    top: 867px;
+    font-size: 22px;
+}
+
+.wat_photo_text{
+    position: absolute;
+    left: 93px;
+    top: 402px;
+    font-size: 22px;
 }
 
 .rec_rel_video_photo {
+    position: absolute;
+    left: 348px;
+    top: 407px;
     font-size: 22px;
-    padding: 200px 0px 50px 2px;
 }
 
 .rec_rel_video_face {
+    position: absolute;
+    left: 364px;
+    top: 396px;
     font-size: 22px;
-    padding: 200px 0px 100px 2px;
 }
 
+
+
 .rec_face {
-    padding: 0px 0px 0px 82px;
+    position: absolute;
+  left: 300px;
+  top: 184px;
 }
 
 
@@ -332,11 +363,13 @@ button {
 }
 
 .photo_booth_rec {
-    padding: 10px 0px 0px 00px;
+    padding: 200px 0px 100px 20px;
+    float:right;
 }
 
 .face_rec {
-    padding: 20px 0px 0px 0px;
+    padding: 200px 0px 100px 0px;
+    float:right;
 }
 
 
